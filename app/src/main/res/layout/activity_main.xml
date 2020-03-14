@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="25dp">
+
+        <Button
+            android:id="@+id/intent_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本模块下跳转"/>
+        <Button
+            android:id="@+id/intentA_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转到A模块"/>
+        <Button
+            android:id="@+id/intentB_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转到B模块"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多模块测试更新"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

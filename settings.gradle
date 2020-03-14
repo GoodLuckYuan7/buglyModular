@@ -1,0 +1,2 @@
+include ':app', ':modular1', ':modular2', ':lib1', ':lib2'
+rootProject.name='buglyModular'
